@@ -1,0 +1,15 @@
+{
+    "license": "MIT",
+    "require": {
+        "php": ">= 8.0"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.15",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "marcocesarato/php-conventional-changelog": "^1.11",
+        "nunomaduro/patrol": "^1.0",
+        "nunomaduro/phpinsights": "^2.0",
+        "pestphp/pest": "^1.14",
+        "symfony/var-dumper": "^5.3"
+    }
+}
