@@ -1,5 +1,6 @@
 {
     "runner.bootstrap": "vendor/autoload.php",
+    "runner.file_pattern": "*.bench.php",
     "runner.revs": 1000,
     "runner.iterations": 10
 }
