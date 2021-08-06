@@ -12,13 +12,6 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-use PhpBench\Attributes as Bench;
-
-class ResponseBench
-{
-    #[Bench\Assert('mode(variant.time.avg) < 200 ms')]
-    public function benchHelloWorld()
-    {
-        sprintf('%s %s', 'hello', 'world');
-    }
-}
+test('example', function () {
+    expect(true)->toBeTrue();
+});
