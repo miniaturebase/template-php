@@ -44,6 +44,5 @@ test: vendor ## Run tests
 	@vendor/bin/pest --configuration=phpunit.xml --color=always
 
 vendor: composer.* ## Install third-party dependencies
-	@rm composer.lock
 	@composer install --optimize-autoloader
 	@touch vendor/
